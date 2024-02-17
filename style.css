@@ -84,7 +84,7 @@ body{
     background-color: var(--secColor); 
     max-width: 300px;
 }
-.head #inputField p{
+#inputField p{
     color: #fff;
     margin-top: 40px;
     font-family: "Urbanist" ,sans-serif;
