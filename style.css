@@ -11,9 +11,9 @@ body{
     min-height: 100vh;
 }
 .main{
-    height: 100%;
-    width: 100%;
+    width: 98%;
     overflow-x: hidden;
+    margin: auto;
 }
 .navbar-brand,.nav-link{
     font-family:"Inter", sans-serif;
@@ -94,7 +94,7 @@ body{
 }
 svg{
     position: relative;
-    left: 95%;
+    left: 90%;
 }
 .sec2{
     display: flex;
