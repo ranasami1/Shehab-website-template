@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --secColor:#d46868;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.navbar-brand,.nav-link{
+    font-family:"Inter", sans-serif;
+}
+.navbar-brand{
+    font-weight: 700;
+    letter-spacing: .5px;
+}
+.nav-link{
+    font-size: 16px;
+    font-weight: 400;
+}
+#dot{
+    color: var(--secColor);
+
+}
+#headContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px auto;
+    border-bottom: rgb(50, 52, 56) solid 1px;
+
+}
+.head{
+    margin: 0 0 100px 0;
+    height: auto;
+}
+.head .text-box1{
+    font-family:"Urbanist" ,sans-serif;
+    line-height: 90px;
+}
+#headText{
+    color: #fff;
+    font-weight: 600;
+}
+.text-box2{
+    margin: 10;
+    width: 70%;
+    margin: auto;
+}
+.head .text-box2 p{
+    color: #fff;
+    font-family: "inter",sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.head #inputField{
+    max-width: 800px;
+    min-width: 220px;
+}
+.head #inputField .input{
+    display: flex;
+    flex-wrap: wrap;
+}
+#email, #submit{
+    font-family: "Urbanist" ,sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    border: none;
+    min-height: 45px;
+    width: 0px;  
+    text-align: left;
+    padding-left: 5px;
+    width: 412px;
+}
+
+#submit{
+    background-color: var(--secColor); 
+    max-width: 300px;
+}
+.head #inputField p{
+    color: #fff;
+    margin-top: 40px;
+    font-family: "Urbanist" ,sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+svg{
+    position: relative;
+    left: 95%;
+}
+.sec2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#sec21{
+    color: #DEDEDE;
+    font-family:"Urbanist",sans-serif ;
+    font-weight: 500;
+    font-size: 38px;
+    line-height:43.9px ;
+}
+#sec22{
+    color: #DEDEDE;
+    font-size: 35px;
+    font-family: "Urbanist",sans-serif;
+    font-weight: 500;
+    line-height: 40.43px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 80px;
+}
+#sec22 img{
+    width: 370px;
+    border-radius: 100%;
+    margin: 0 50px;
+}
+.sec2 button{
+    font-family: "Urbanist",sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #a9a9a9a9;
+    margin: 20px 0;
+}
