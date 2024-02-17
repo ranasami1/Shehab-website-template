@@ -13,6 +13,7 @@ body{
 .main{
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
 }
 .navbar-brand,.nav-link{
     font-family:"Inter", sans-serif;
@@ -51,7 +52,7 @@ body{
 }
 .text-box2{
     margin: 10;
-    width: 70%;
+    width: 72%;
     margin: auto;
 }
 .head .text-box2 p{
@@ -120,7 +121,8 @@ svg{
     margin-top: 80px;
 }
 #sec22 img{
-    width: 370px;
+    max-width: 370px;
+    min-width: 270px;
     border-radius: 100%;
     margin: 0 50px;
 }
