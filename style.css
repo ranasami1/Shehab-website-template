@@ -13,6 +13,7 @@ body{
 .main{
     width: 98%;
     margin: auto;
+    overflow-x: hidden;
 }
 .navbar-brand,.nav-link{
     font-family:"Inter", sans-serif;
@@ -96,6 +97,8 @@ svg{
     left: 90%;
 }
 .sec2{
+    width: 100%;
+    padding: 20px 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -132,4 +135,24 @@ svg{
     font-weight: 700;
     color: #a9a9a9a9;
     margin: 20px auto;
+    margin: 20px 0;
+}
+#separator{
+    height: 160px;
+}
+#separator div{
+    border: #484E53 solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+#separator div p{
+    font-family: "Urbanist",sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30.8px;
+    text-wrap: wrap;
 }
