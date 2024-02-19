@@ -157,3 +157,41 @@ svg{
     line-height: 30.8px;
     text-wrap: wrap;
 }
+.sec3{
+    padding: 70px 0;
+}
+.sec3 #sec3title{
+    font-family: "Urbanist";
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 73.93px;
+    color: #DEDEDE;
+    margin: 70px 0;
+}
+#Services{
+    margin: 70px auto;
+}
+.sec3 #Services .service{
+    font-family: "Urbanist";
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32.35px;
+    color: #DEDEDE;
+}
+.sec3 #Services p{
+    font-family: "Urbanist",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21.56px;
+    color: #a9a9a9;
+}
+.sec3 #Services button{
+    font-family: "Urbanist",sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38.51px;
+    height: 46px;
+    width: 252px;
+    text-align: center;
+    border-radius: 30px;
+}
