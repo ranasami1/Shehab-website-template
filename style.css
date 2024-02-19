@@ -11,8 +11,7 @@ body{
     min-height: 100vh;
 }
 .main{
-    width: 98%;
-    margin: auto;
+    width: 100%;
     overflow-x: hidden;
 }
 .navbar-brand,.nav-link{
@@ -158,7 +157,10 @@ svg{
     text-wrap: wrap;
 }
 .sec3{
-    padding: 70px 0;
+    padding: 70px 50px;
+    height: auto;
+    border-bottom: rgb(50, 52, 56) solid 1px;
+
 }
 .sec3 #sec3title{
     font-family: "Urbanist";
@@ -169,7 +171,11 @@ svg{
     margin: 70px 0;
 }
 #Services{
-    margin: 70px auto;
+    margin: 50px 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .sec3 #Services .service{
     font-family: "Urbanist";
@@ -190,8 +196,23 @@ svg{
     font-weight: 700;
     font-size: 25px;
     line-height: 38.51px;
-    height: 46px;
-    width: 252px;
-    text-align: center;
     border-radius: 30px;
+}
+.sec4{
+    padding: 50px 10px;
+    height: auto;
+}
+.sec4 #textSec .title{
+    font-family: "Urbanist",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24.64px;
+    color: #A9A9A9;
+}
+.sec4 #textSec p{
+    color: #dedede;
+    font-family: "Urbanist",sans-serif;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 43.9px;
 }
