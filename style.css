@@ -148,7 +148,7 @@ svg{
     justify-content: center;
     flex-direction: column;
     gap: 10px;
-    padding: 10px;
+    padding: 20px;
 }
 #separator div p{
     font-family: "Urbanist",sans-serif;
