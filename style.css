@@ -292,3 +292,44 @@ svg{
     gap: 50px;
     margin: 30px 0;
 }
+#sec53{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+#sec53 #sec531 p:first-child{
+    font-family: "Abhaya Libre", serif;
+    font-weight:800;
+    font-size: 48px;
+    line-height: 50.88px;
+    color: #ffffff;
+    max-width:450px;
+}
+#sec53 #sec531 p{
+    font-family: "Urbanist",sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 31.8px;
+    color: #ffffff;
+    max-width:420px;
+    text-transform: capitalize;
+    margin: 40px 0;
+}
+#sec53 #sec531 p span{
+    font-family: "Urbanist",sans-serif;
+    font-weight: 400;
+    line-height: 52px;
+}
+#sec53 #sec531 button{
+    width: 280px;
+    border-radius: 30px;
+    height: 60px;
+    font-family: "Urbanist",sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #a9a9a9;
+    text-align: start;
+
+
+
+}
