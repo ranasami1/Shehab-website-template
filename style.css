@@ -295,7 +295,7 @@ svg{
 #sec53{
     width: 85%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 60px;
     padding-bottom: 80px;   
 }
 #sec53 #sec531 p:first-child{
@@ -305,6 +305,7 @@ svg{
     line-height: 50.88px;
     color: #ffffff;
     max-width:450px;
+    letter-spacing: 2px;
 }
 #sec53 #sec531 p{
     font-family: "Urbanist",sans-serif;
