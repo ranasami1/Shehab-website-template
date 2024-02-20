@@ -232,6 +232,8 @@ svg{
 .sec5{
     height: auto;
     border-bottom: rgb(50, 52, 56) solid 1px;
+    display: flex;
+    flex-direction: column;
     
 }
 .sec5 #sec51{
@@ -282,3 +284,12 @@ svg{
 .sec5 #sec52 ul > li:before {
     content: "- ";
   }
+#arrows{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 30px 0;
+}
+#arrows i{
+    fill:#A9A9A9;
+}
