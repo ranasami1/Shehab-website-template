@@ -296,9 +296,10 @@ svg{
     width: 90%;
     margin: auto;
     margin-top: 50px;
+    padding-bottom: 80px;   
 }
 #sec53 #sec531 p:first-child{
-    font-family: "Abhaya Libre ExtraBold", serif;
+    font-family: "Abhaya Libre", serif;
     font-weight:800;
     font-size: 48px;
     line-height: 50.88px;
@@ -333,24 +334,24 @@ svg{
 }
 #sec53 #sec532{
     height: auto;
-    margin-top: 100px;   
+    margin-top: 100px;
 }
 #sec53 #sec532 div{
     margin: 5px;
     text-align: start;
+    line-height: 35px;
+    padding: 0;
 }
 #sec53 #sec532 div p:first-child{
-    font-family: "Abhaya Libre ExtraBold",serif;
+    font-family: "Abhaya Libre",serif;
     font-weight: 800;
     font-size: 48px;
-    line-height: 50.88px;
     color: #ffffff;
 }
 #sec53 #sec532 div p:last-child{
     font-family: "Urbanist",sans-serif;
     font-weight: 500;
     font-size: 25px;
-    line-height: 26.5px;
     color: #ffffff;
-  
+    letter-spacing: 2px;
 }
