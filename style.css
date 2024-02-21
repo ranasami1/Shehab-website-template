@@ -388,3 +388,26 @@ svg{
     gap: 50px;
     margin: 50px 0;
 }
+#sec6 #sec62 #new{
+    font-family:"Urbanist",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:#000;
+    background-color: #d9d9d9;
+    width: 50px;
+    text-align: center;
+    line-height: 25.17px;
+}
+#sec6 #sec62 p{
+    font-family:"Urbanist",sans-serif;
+    font-weight: 600;
+    color: #dedede;
+    font-size: 28px;
+    line-height: 32.35px;
+}
+#sec6 #sec62 p:last-child{
+    font-family:"Urbanist",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height:25.17px ;
+}
