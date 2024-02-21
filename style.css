@@ -411,7 +411,7 @@ svg{
     font-weight: 600;
     color: #dedede;
     font-size: 28px;
-    max-width: 520px;
+    max-width: 460px;
     line-height: 32.35px;
 }
 #sec6 #sec62 p:last-child{
@@ -420,5 +420,5 @@ svg{
     font-size: 16px;
     line-height:25.17px ;
     max-width: 500px;
-    margin-top: 5px;
+    margin-top: 30px;
 }
