@@ -390,14 +390,8 @@ svg{
     max-width: 1200px;
     margin: 50px 0;
 }
-#sec6 #sec62 #sec621{
-    display: flex;
-    align-items:start;
-    flex-direction: column;
-}
 #sec6 #sec62 #sec621 img{
-    max-width: 540px;
-    
+    width: 100%;
 }
 #sec6 #sec62 #new{
     font-family:"Urbanist",sans-serif;
@@ -423,4 +417,5 @@ svg{
     font-size: 16px;
     line-height:25.17px ;
     max-width: 500px;
+    margin-top: 5px;
 }
