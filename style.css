@@ -341,7 +341,7 @@ svg{
     margin: 5px;
     text-align: start;
     line-height: 35px;
-    padding: 0;
+    margin: 20px;
 }
 #sec53 #sec532 div p:first-child{
     font-family: "Abhaya Libre",serif;
@@ -355,4 +355,5 @@ svg{
     font-size: 25px;
     color: #ffffff;
     letter-spacing: 2px;
+    border-bottom: 1px #ffff solid;
 }
