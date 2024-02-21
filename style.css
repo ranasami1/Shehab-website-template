@@ -440,3 +440,8 @@ footer{
     margin: 0 10px;
     text-align: center;
 }
+#list{
+    display: flex;
+    justify-content: end;
+    margin: 0 40px;
+}
