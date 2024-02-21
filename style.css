@@ -298,9 +298,10 @@ svg{
 }
 #sec53{
    display: flex;
-   width: 90%;
+   width: 85%;
    margin: auto;
    justify-content: space-between;
+   gap: 50px;
    
 }
 #sec53 #sec531 p:first-child{
