@@ -423,3 +423,7 @@ svg{
     max-width: 500px;
     margin-top: 30px;
 }
+footer{
+    height: auto;
+    display: flex;
+}
