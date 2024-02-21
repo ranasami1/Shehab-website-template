@@ -369,6 +369,7 @@ svg{
     align-items: center;
     margin: 40px 0;
     height: auto;
+    border-bottom: rgb(50, 52, 56) solid 1px;
 }
 #sec6 #sec61 p:first-child{
     font-family: "Urbanist",sans-serif;
