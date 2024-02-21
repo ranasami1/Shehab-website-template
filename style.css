@@ -384,9 +384,14 @@ svg{
 }
 #sec6 #sec62{
     display: flex;
-    height: auto;
-    gap: 50px;
+    justify-content:space-between;
+    min-height: 400px;
+    flex-wrap: wrap;
+    max-width: 1200px;
     margin: 50px 0;
+}
+#sec6 #sec62 div img{
+    max-width: 540px;
 }
 #sec6 #sec62 #new{
     font-family:"Urbanist",sans-serif;
@@ -403,6 +408,7 @@ svg{
     font-weight: 600;
     color: #dedede;
     font-size: 28px;
+    max-width: 520px;
     line-height: 32.35px;
 }
 #sec6 #sec62 p:last-child{
@@ -410,4 +416,5 @@ svg{
     font-weight: 500;
     font-size: 16px;
     line-height:25.17px ;
+    max-width: 500px;
 }
