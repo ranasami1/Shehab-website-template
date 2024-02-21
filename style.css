@@ -14,7 +14,7 @@ body{
 ul{
     list-style-type: none;
 }
-button:hover{
+button,a:hover{
     cursor: pointer;
 }
 .main{
@@ -423,9 +423,6 @@ svg{
     max-width: 500px;
     margin-top: 30px;
 }
-footer{
-    min-height:200px;
-}
 #icons{
     margin: 40px ;
     display: flex;
@@ -434,14 +431,17 @@ footer{
 #icons a{
     width: 32px;
     height: 32px;
-    border: 2px #484E53 solid;
     border-radius:30px;
     padding: 10px;
     margin: 0 10px;
     text-align: center;
+    color: #A9A9A9;
 }
 #list{
     display: flex;
     justify-content: end;
     margin: 0 40px;
+}
+#list ul a{
+    margin: 0 5px;
 }
