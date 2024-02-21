@@ -14,6 +14,9 @@ body{
 ul{
     list-style-type: none;
 }
+button:hover{
+    cursor: pointer;
+}
 .main{
     width: 100%;
     overflow-x: hidden;
@@ -356,4 +359,30 @@ svg{
     color: #ffffff;
     letter-spacing: 2px;
     border-bottom: 1px #ffff solid;
+}
+#sec6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+}
+#sec6 #sec61 p:first-child{
+    font-family: "Urbanist",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24.64px;
+    color: #a9a9a9;
+}
+#sec6 #sec61 p:last-child{
+    font-family: "Urbanist",sans-serif;
+    font-weight: 500px;
+    font-size: 38px;
+    line-height: 43.9px;
+    color: #dedede;
+    max-width:670px ;
+}
+#sec6 #sec62{
+    display: flex;
+    gap: 50px;
+    margin: 50px 0;
 }
